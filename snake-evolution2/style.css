@@ -1,0 +1,17 @@
+body {
+  background: #111;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+canvas {
+  border: 3px solid #0ff;
+  margin-top: 10px;
+  touch-action: none;
+}
+
+button, select {
+  padding: 6px;
+  margin: 5px;
+}

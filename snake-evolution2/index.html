@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Snake Game</h2>
+
+<div class="controls">
+  <button onclick="setMode('retro')">Retro</button>
+  <button onclick="setMode('intermediate')">Intermediate</button>
+  <button onclick="setMode('modern')">Modern</button>
+
+  <select id="difficulty" onchange="setDifficulty(this.value)">
+    <option value="easy">Easy</option>
+    <option value="medium" selected>Medium</option>
+    <option value="hard">Hard</option>
+  </select>
+</div>
+
+<p id="modeText"></p>
+<p id="scoreText">Score: 0</p>
+
+<canvas id="game" width="400" height="400"></canvas>
+
+<br>
+<button id="restartBtn" onclick="restartGame()" style="display:none;">
+  Play Again
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>

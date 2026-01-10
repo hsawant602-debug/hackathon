@@ -18,7 +18,7 @@ let score = 0;
 let touchStartX = 0;
 let touchStartY = 0;
 
-// 🍎🍌🍇 FRUITS (Modern mode)
+//  FRUITS (Modern mode)
 const fruits = [
   { type: "apple", color: "red", score: 1 },
   { type: "banana", color: "yellow", score: 2 },
@@ -241,3 +241,4 @@ function restartGame() {
 
 // ---------------- START ----------------
 setMode("retro");
+
